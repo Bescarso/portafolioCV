@@ -138,8 +138,7 @@
         "Python": "simple-icons:python",
         "SQL": "simple-icons:microsoftsqlserver",
         "Power BI": "simple-icons:powerbi",
-        "Git": "mdi:git",
-        "flet": "simple-icons:flet"
+        "Git": "mdi:git"
       }
     },
     {
