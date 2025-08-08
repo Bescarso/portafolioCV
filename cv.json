@@ -77,18 +77,42 @@
       "endDate": "2016-12-20"
     }
   ],
-  "courses": [
+  "certificates": [
     {
-      "name": "Success has lived a day in the world.",
-      "date": "2010-04-14",
+      "name": "Python Total",
+      "date": "2023-09-12",
       "url": "",
-      "issuer": "Myself"
+      "issuer": "Udemy"
     },
     {
-      "name": "TCCP - Senior Cloud Architecture Engineer",
+      "name": "Python for Data Science & ML",
       "date": "2023-05-01",
       "url": "",
-      "issuer": "Tencent Cloud"
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Master en SQL Server",
+      "date": "2024-07-07",
+      "url": "",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Power Bi - Análisis de Datos y Business Intelligence",
+      "date": "2024-01-03",
+      "url": "",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Probabilidad y Estadística: Analìtica de Negocios y Finanzas",
+      "date": "2025-06-25",
+      "url": "",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "PySpark - Apache Spark Programming in Python for beginners",
+      "date": "2025-07-18",
+      "url": "",
+      "issuer": "Udemy"
     }
   ],
   "work": [
