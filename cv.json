@@ -205,6 +205,18 @@
       ]
     },
     {
+      "name": "Pyspark",
+      "icon": "simple-icons:apachespark",
+      "level": "Basic",
+      "keywords": []
+    },
+    {
+      "name": "Databricks",
+      "icon": "simple-icons:databricks",
+      "level": "Basic",
+      "keywords": []
+    },
+    {
       "name": "Power BI",
       "icon": "simple-icons:powerbi",
       "level": "Intermediate",
@@ -212,27 +224,6 @@
         "Databases",
         "SQL",
         "Data Storage"
-      ]
-    },
-    {
-      "name": "Word",
-      "icon": "simple-icons:microsoftword",
-      "level": "Intermediate",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Excel",
-      "icon": "simple-icons:microsoftexcel",
-      "level": "Intermediate",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Power Point",
-      "icon": "simple-icons:microsoftpowerpoint",
-      "level": "Intermediate",
-      "keywords": [
       ]
     },
     {
@@ -254,6 +245,27 @@
         "Collaboration",
         "Source Code",
         "Git"
+      ]
+    },
+    {
+      "name": "Word",
+      "icon": "simple-icons:microsoftword",
+      "level": "Intermediate",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Excel",
+      "icon": "simple-icons:microsoftexcel",
+      "level": "Intermediate",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Power Point",
+      "icon": "simple-icons:microsoftpowerpoint",
+      "level": "Intermediate",
+      "keywords": [
       ]
     }
   ],
