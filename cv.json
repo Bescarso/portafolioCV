@@ -25,8 +25,8 @@
       {
         "network": "GitHub",
         "icon": "mdi:github",
-        "username": "MiraHikari",
-        "url": "https://github.com/MiraHikari"
+        "username": "bescarso",
+        "url": "https://github.com/bescarso"
       }
     ],
     "beian": {
@@ -61,12 +61,20 @@
   },
   "education": [
     {
-      "institution": "Nanchang No.27 Middle School",
-      "url": "",
+      "institution": "Universidad Tecnológica del Perú (UTP)",
+      "url": "https://www.utp.edu.pe/",
+      "area": "Bachelor in Mechatronic Engineering",
+      "studyType": "Full-time student",
+      "startDate": "2016-8-22",
+      "endDate": "2025-05-13"
+    },
+    {
+      "institution": "SENATI",
+      "url": "https://www.senati.edu.pe/",
       "area": "Regular Student",
       "studyType": "Full-time student",
-      "startDate": "2021-9-01",
-      "endDate": null
+      "startDate": "2014-2-01",
+      "endDate": "2016-12-20"
     }
   ],
   "certificates": [
