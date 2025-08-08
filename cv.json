@@ -17,16 +17,10 @@
     },
     "profiles": [
       {
-        "network": "Bilibili",
-        "icon": "ri:bilibili-line",
-        "username": "MiraHikari",
-        "url": "https://space.bilibili.com/480025691"
-      },
-      {
-        "network": "QQ",
-        "icon": "ri:qq-fill",
-        "username": "Gong_cx",
-        "url": "https://admin.qidian.qq.com/static_proxy/b2b-qq/wpa-link/index.html#/person?uin=3175992523"
+        "network": "Linkdein",
+        "icon": "mdi:linkedin",
+        "username": "billy-soplin",
+        "url": "https://www.linkedin.com/in/billy-soplin/"
       },
       {
         "network": "GitHub",
