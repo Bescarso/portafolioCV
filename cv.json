@@ -66,18 +66,18 @@
       "area": "Bachelor in Mechatronic Engineering",
       "studyType": "Full-time student",
       "startDate": "2016-8-22",
-      "endDate": "2025-05-13"
+      "endDate": "2024-05-13"
     },
     {
       "institution": "SENATI",
       "url": "https://www.senati.edu.pe/",
-      "area": "Regular Student",
+      "area": "Technical Degree in Industrial Mechatronics",
       "studyType": "Full-time student",
       "startDate": "2014-2-01",
       "endDate": "2016-12-20"
     }
   ],
-  "certificates": [
+  "courses": [
     {
       "name": "Success has lived a day in the world.",
       "date": "2010-04-14",
