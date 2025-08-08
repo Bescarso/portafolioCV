@@ -27,6 +27,12 @@
         "icon": "mdi:github",
         "username": "bescarso",
         "url": "https://github.com/bescarso"
+      },
+      {
+        "network": "CV",
+        "icon": "mdi:file-account",
+        "username": "bescarso",
+        "url": "https://tulinkalcv.com"
       }
     ],
     "beian": {
