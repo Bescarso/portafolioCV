@@ -209,22 +209,24 @@
       ]
     },
     {
-      "name": "HTML",
-      "icon": "simple-icons:html5",
+      "name": "Word",
+      "icon": "simple-icons:microsoftword",
       "level": "Intermediate",
       "keywords": [
-        "Web Development",
-        "Frontend"
       ]
     },
     {
-      "name": "CSS",
-      "icon": "ri:css3-fill",
+      "name": "Excel",
+      "icon": "simple-icons:microsoftexcel",
       "level": "Intermediate",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Power Point",
+      "icon": "simple-icons:microsofpowerpoint",
+      "level": "Intermediate",
+      "keywords": [
       ]
     },
     {
