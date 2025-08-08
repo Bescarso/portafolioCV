@@ -119,7 +119,7 @@
     {
       "name": "Corporacion Turistica Peruana SAC",
       "position": "Fire Protection Supervisor",
-      "location_type": "In-person",
+      "location_type": "Presentiality",
       "location": "PE",
       "url": "https://www.linkedin.com/company/casino-atlantic-city/posts/?feedView=all",
       "startDate": "2021-03-01",
@@ -137,18 +137,19 @@
       "skills": {
         "Python": "simple-icons:python",
         "SQL": "simple-icons:microsoftsqlserver",
-        "powerbi": "simple-icons:powerbi",
-        "Git": "mdi:git"
+        "Power BI": "simple-icons:powerbi",
+        "Git": "mdi:git",
+        "flet": "simple-icons:flet"
       }
     },
     {
-      "name": "Riddle Town Team",
-      "position": "Full-stack Developer",
-      "location_type": "Remote",
-      "location": "CN",
-      "url": "https://rth2.gcxstudio.cn",
-      "startDate": "2023-01-01",
-      "endDate": "2024-02-11",
+      "name": "Corporacion Turistica Peruana SAC",
+      "position": "Alarm Technician",
+      "location_type": "Presentiality",
+      "location": "PE",
+      "url": "https://www.linkedin.com/company/casino-atlantic-city/posts/?feedView=all",
+      "startDate": "2018-03-01",
+      "endDate": "2021-02-30",
       "summary": "Led page design and account systems.",
       "highlights": [
         "Completed 95% of project content."
@@ -161,20 +162,6 @@
         "Ensured smooth project execution."
       ],
       "skills": {
-        "HTML": "simple-icons:html5",
-        "CSS": "ri:css3-fill",
-        "JavaScript": "simple-icons:javascript",
-        "TypeScript": "simple-icons:typescript",
-        "Vite": "simple-icons:vite",
-        "Node": "ri:nodejs-line",
-        "Docker": "mdi:docker",
-        "WordPress": "ri:wordpress-fill",
-        "Astro": "simple-icons:astro",
-        "SQL": "simple-icons:mysql",
-        "Tailwind": "mdi:tailwind",
-        "React": "mdi:react",
-        "GitHub": "mdi:github",
-        "Git": "mdi:git"
       }
     }
   ],
