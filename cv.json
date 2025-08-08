@@ -32,7 +32,7 @@
         "network": "CV",
         "icon": "mdi:file-account",
         "username": "bescarso",
-        "url": "https://tulinkalcv.com"
+        "url": "https://drive.google.com/file/d/1mrpDG-hQKAde9k9iGnkHiakdJfG8pNlw/view?usp=drive_link"
       }
     ],
     "beian": {
@@ -172,6 +172,43 @@
   ],
   "skills": [
     {
+      "name": "Python",
+      "icon": "simple-icons:python",
+      "level": "Intermediate",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "SQL",
+      "icon": "simple-icons:microsoftsqlserver",
+      "level": "Basic",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage"
+      ]
+    },
+    {
+      "name": "Firebase",
+      "icon": "simple-icons:firebase",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage"
+      ]
+    },
+    {
+      "name": "Power BI",
+      "icon": "simple-icons:powerbi",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage"
+      ]
+    },
+    {
       "name": "HTML",
       "icon": "simple-icons:html5",
       "level": "Intermediate",
@@ -234,17 +271,7 @@
         "Server"
       ]
     },
-    {
-      "name": "SQL",
-      "icon": "simple-icons:mysql",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
-    },
+
     {
       "name": "MongoDB",
       "icon": "simple-icons:mongodb",
