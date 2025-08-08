@@ -138,7 +138,10 @@
         "Python": "simple-icons:python",
         "SQL": "simple-icons:microsoftsqlserver",
         "Power BI": "simple-icons:powerbi",
-        "Git": "mdi:git"
+        "Git": "mdi:git",
+        "Excel": "simple-icons:microsoftexcel",
+        "Word": "simple-icons:microsoftword",
+        "Power Point": "simple-icons:microsoftpowerpoint"
       }
     },
     {
@@ -161,6 +164,9 @@
         "Ensured smooth project execution."
       ],
       "skills": {
+        "Excel": "simple-icons:microsoftexcel",
+        "Word": "simple-icons:microsoftword",
+        "Power Point": "simple-icons:microsoftpowerpoint"
       }
     }
   ],
