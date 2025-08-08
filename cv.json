@@ -135,8 +135,9 @@
         "Implemented a cloud drive and verification code system."
       ],
       "skills": {
-        "Python": "simple-icons:Python",
+        "Python": "simple-icons:python",
         "SQL": "simple-icons:microsoftsqlserver",
+        "powerbi": "simple-icons:powerbi",
         "Git": "mdi:git"
       }
     },
