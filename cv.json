@@ -227,6 +227,16 @@
       ]
     },
     {
+      "name": "Azure",
+      "icon": "simple-icons:microsoftazure",
+      "level": "Basic",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage"
+      ]
+    },
+    {
       "name": "Git",
       "icon": "mdi:git",
       "level": "Intermediate",
