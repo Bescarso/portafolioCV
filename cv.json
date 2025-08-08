@@ -79,8 +79,8 @@
       "url": "https://www.senati.edu.pe/",
       "area": "Technical Degree in Industrial Mechatronics",
       "studyType": "Full-time student",
-      "startDate": "2014-2-01",
-      "endDate": "2016-12-20"
+      "startDate": "2012-2-01",
+      "endDate": "2014-12-20"
     }
   ],
   "certificates": [
@@ -132,7 +132,6 @@
       "endDate": null,
       "responsibilities": [
         "Supervise and maintain fire protection systems, alarms, and fire detection equipment, ensuring their proper operation. Perform regular inspections of fire extinguishers, alarms, and sensors to ensure functionality and detect potential failures.",
-        "Identify risks and vulnerabilities within facilities, proposing effective solutions to mitigate them.",
         "Train personnel in fire safety, extinguisher use, and evacuation procedures.",
         "Manage the fire safety budget to ensure proper acquisition, maintenance, and upgrading of protection systems and equipment.",
         "Coordinate with other departments to integrate safety policies into all operations.",
@@ -157,16 +156,11 @@
       "url": "https://www.linkedin.com/company/casino-atlantic-city/posts/?feedView=all",
       "startDate": "2018-03-01",
       "endDate": "2021-02-30",
-      "summary": "Led page design and account systems.",
-      "highlights": [
-        "Completed 95% of project content."
-      ],
       "responsibilities": [
-        "Developed complete pages.",
-        "Integrated user-facing elements with server-side logic."
-      ],
-      "achievements": [
-        "Ensured smooth project execution."
+        "Install and maintain security and fire alarm systems, including panels, sensors, detectors, manual stations, and sirens.",
+        "Conduct diagnostics, identify and repair faults, verify connections, and perform comprehensive system testing to ensure optimal performance.",
+        "Interpret technical manuals, read blueprints and diagrams, and ensure full compliance with safety codes and regulations.",
+        "Prepare detailed technical reports on observations made during the workday, along with recommendations for safety improvements."
       ],
       "skills": {
         "Excel": "simple-icons:microsoftexcel",
