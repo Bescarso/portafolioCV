@@ -2,18 +2,18 @@
   "analyticsCode": "",
   "pageLayout": "two-column",
   "basics": {
-    "name": "MiraHikari",
-    "label": "Senior Full Stack Developer",
+    "name": "Billy Soplin",
+    "label": "Data Analyst",
     "image": "/avatar.png",
-    "email": "mirahikari@gcxstudio.cn",
+    "email": "billysoplin@gmail.com",
     "url": "https://www.gcxstudio.cn",
-    "summary": "Born in 2010, I primarily work with TypeScript and JavaScript for full-stack development, and enjoy working with various technologies.",
+    "summary": "Bachelor in Mechatronic Engineering, with a strong interest in data analysis. Committed to continuous learning and always willing to take on new professional challenges that enrich my experience.",
     "theme": "red",
     "location": {
-      "address": "Nanchang",
-      "city": "Jiangxi Province",
-      "countryCode": "CN",
-      "region": "China"
+      "address": "Chorrillos",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": "Peru"
     },
     "profiles": [
       {
