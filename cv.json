@@ -118,7 +118,7 @@
   "work": [
     {
       "name": "Corporacion Turistica Peruana SAC",
-      "position": "Supervision Fire Protection",
+      "position": "Fire Protection Supervisor",
       "location_type": "In-person",
       "location": "PE",
       "url": "https://www.linkedin.com/company/casino-atlantic-city/posts/?feedView=all",
@@ -135,16 +135,9 @@
         "Implemented a cloud drive and verification code system."
       ],
       "skills": {
-        "PHP": "simple-icons:php",
-        "Node": "ri:nodejs-line",
-        "Golang": "simple-icons:go",
-        "Next.js": "ri:nextjs-fill",
-        "React": "mdi:react",
-        "SQL": "simple-icons:sqlserver",
-        "Git": "mdi:git",
-        "GitHub": "mdi:github",
-        "NestJS": "simple-icons:nestjs",
-        "Vue": "mdi:vuejs"
+        "Python": "simple-icons:Python",
+        "SQL": "simple-icons:microsoftsqlserver",
+        "Git": "mdi:git"
       }
     },
     {
