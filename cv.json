@@ -131,9 +131,7 @@
       "responsibilities": [
         "Developed and maintained backend services using Node.js and Golang."
       ],
-      "achievements": [
-        "Implemented a cloud drive and verification code system."
-      ],
+
       "skills": {
         "Python": "simple-icons:python",
         "SQL": "simple-icons:microsoftsqlserver",
