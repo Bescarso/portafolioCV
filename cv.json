@@ -137,7 +137,6 @@
         "Coordinate with other departments to integrate safety policies into all operations.",
         "Develop dashboards in Power BI to monitor KPIs related to fire safety, including inspections, maintenance, training, and budget management, aiming to optimize resources and improve decision-making."
       ],
-
       "skills": {
         "Python": "simple-icons:python",
         "SQL": "simple-icons:microsoftsqlserver",
@@ -156,9 +155,9 @@
       "url": "https://www.linkedin.com/company/casino-atlantic-city/posts/?feedView=all",
       "startDate": "2018-03-01",
       "endDate": "2021-02-30",
-      "summary": "Led page design and account systems.",
+      "summary": "",
       "highlights": [
-        "Completed 95% of project content."
+        ""
       ],
       "responsibilities": [
         "Install and maintain security and fire alarm systems, including panels, sensors, detectors, manual stations, and sirens.",
@@ -167,7 +166,7 @@
         "Prepare detailed technical reports on observations made during the workday, along with recommendations for safety improvements."
       ],
       "achievements": [
-        "Ensured smooth project execution."
+        ""
       ],
       "skills": {
         "Excel": "simple-icons:microsoftexcel",
