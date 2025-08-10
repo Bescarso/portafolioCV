@@ -302,8 +302,8 @@
     }
   ],
   "projects": [
-        {
-      "name": "Fire Protection Dashboard",
+    {
+      "name": "Fire Protection Equipment Dashboard",
       "image": {
         "url": "https://rth2-webstatic.gbclstudio.cn/wp-content/uploads/2024/02/1707656250-76b2b0d2c94824e89a2b8b2c7d1c6afe.png",
         "position": "background"
@@ -311,10 +311,24 @@
       "isActive": true,
       "description": "Public decryption activity in the form of Puzzle Hunt.",
       "highlights": [
-        "👌 More than 1000 people participated, system runs normally",
-        "😮‍ Use headless CMS: WordPress to storage and manage contents, dynamically render page",
-        "😊 Windows-like interface",
-        "💕 Based on Astro"
+        "🔎 Quick search for equipment by location",
+        "🧰 Visualization of area equipment",
+        "📝 Maintenance history"
+      ],
+      "url": "https://rth2.gcxstudio.cn/"
+    },
+    {
+      "name": "KPI Dashboard",
+      "image": {
+        "url": "https://rth2-webstatic.gbclstudio.cn/wp-content/uploads/2024/02/1707656250-76b2b0d2c94824e89a2b8b2c7d1c6afe.png",
+        "position": "background"
+      },
+      "isActive": true,
+      "description": "Public decryption activity in the form of Puzzle Hunt.",
+      "highlights": [
+        "📊 Visualization of area progress",
+        "📈 Performance trends and historical comparisons",
+        "🎯 Goal tracking",
       ],
       "url": "https://rth2.gcxstudio.cn/"
     },
@@ -326,7 +340,7 @@
         "dark": "https://i0.hdslb.com/bfs/article/4d0bf8a784d22e54e3e61763c361c9ef480025691.png@100q_1e_1c.webp"
       },
       "isActive": true,
-      "description": "An Update of the Panel_SDACI application with new features.",
+      "description": "An update of the Panel_SDACI application with new features.",
       "highlights": [
         "🎯 Inventory feature added",
         "🪪 Login feature added",
