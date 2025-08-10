@@ -310,12 +310,11 @@
         "dark": "https://i0.hdslb.com/bfs/article/4d0bf8a784d22e54e3e61763c361c9ef480025691.png@100q_1e_1c.webp"
       },
       "isActive": true,
-      "description": "Update of the Panel_SDACI application, adding the new inventory feature.",
+      "description": "An Update of the Panel_SDACI application with new features.",
       "highlights": [
-        "🎯 Privacy-friendly, no registration required, out-of-the-box",
-        "✨ Support saving passwords and retrieving email addresses",
-        "😄 Support multiple domain name suffixes",
-        "🚀 100% open source, fully based on Cloudflare."
+        "🎯 Inventory feature added",
+        "🪪 Login feature added",
+        "🚀 Based on Firebase non-relational database"
       ],
       "url": "https://what-the-fuck.sbs",
       "github": "https://github.com/MiraHikari/cloudflare-vmail"
@@ -346,10 +345,11 @@
       "isActive": true,
       "description": "A desktop app for maintaining Simplex fire alarm systems, enabling device searches by address.",
       "highlights": [
-        "🎯 Privacy-friendly, no registration required, out-of-the-box",
-        "✨ Support saving passwords and retrieving email addresses",
-        "😄 Support multiple domain name suffixes",
-        "🚀 100% open source, fully based on Cloudflare."
+        "🔍 Search devices by address device",
+        "🕒 View maintenance history with detailed information",
+        "➕ Add new maintenance records",
+        "❌ Delete history entries",
+        "💾 Data stored securely in an Azure SQL database"
       ],
       "url": "https://what-the-fuck.sbs",
       "github": "https://github.com/MiraHikari/cloudflare-vmail"
