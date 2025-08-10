@@ -349,7 +349,26 @@
         "🕒 View maintenance history with detailed information",
         "➕ Add new maintenance records",
         "❌ Delete history entries",
-        "💾 Data stored securely in an Azure SQL database"
+        "💾 Data stored in an Azure SQL database"
+      ],
+      "url": "https://what-the-fuck.sbs",
+      "github": "https://github.com/MiraHikari/cloudflare-vmail"
+    },
+    {
+      "name": "Aqui va el proyecto ANPR",
+      "image": {
+        "url": "https://i0.hdslb.com/bfs/article/985e2caa8266dee4b9861ee6a341886d480025691.png@1e_1c.webp",
+        "position": "container",
+        "dark": "https://i0.hdslb.com/bfs/article/4d0bf8a784d22e54e3e61763c361c9ef480025691.png@100q_1e_1c.webp"
+      },
+      "isActive": true,
+      "description": "A desktop app for maintaining Simplex fire alarm systems, enabling device searches by address.",
+      "highlights": [
+        "🔍 Search devices by address device",
+        "🕒 View maintenance history with detailed information",
+        "➕ Add new maintenance records",
+        "❌ Delete history entries",
+        "💾 Data stored in an Azure SQL database"
       ],
       "url": "https://what-the-fuck.sbs",
       "github": "https://github.com/MiraHikari/cloudflare-vmail"
