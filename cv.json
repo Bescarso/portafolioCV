@@ -305,7 +305,7 @@
     {
       "name": "Fire Protection Dashboards",
       "image": {
-        "url": "https://drive.google.com/file/d/1Clq4lXo8qyrPgsH5Kb9o9u7SYiJrJrjb/view",
+        "url": "https://rth2-webstatic.gbclstudio.cn/wp-content/uploads/2024/02/1707656250-76b2b0d2c94824e89a2b8b2c7d1c6afe.png",
         "position": "background"
       },
       "isActive": false,
@@ -321,7 +321,7 @@
     {
       "name": "Browser-Inventory App",
       "image": {
-        "url": "https://i0.hdslb.com/bfs/article/985e2caa8266dee4b9861ee6a341886d480025691.png@1e_1c.webp",
+        "url": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/RESUMEN-SDACI.png?updatedAt=1754938235779",
         "position": "container",
         "dark": "https://i0.hdslb.com/bfs/article/4d0bf8a784d22e54e3e61763c361c9ef480025691.png@100q_1e_1c.webp"
       },
@@ -329,10 +329,10 @@
       "description": "An update of the Panel_SDACI application with new features.",
       "highlights": [
         "🎯 Inventory feature added",
-        "🪪 Login feature added",
+        "🔑 Login feature added",
         "🚀 Based on Firebase non-relational database"
       ],
-      "url": "https://what-the-fuck.sbs",
+      "url": "",
       "github": "https://github.com/MiraHikari/cloudflare-vmail"
     },
     {
