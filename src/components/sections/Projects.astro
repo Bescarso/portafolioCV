@@ -7,13 +7,14 @@ import { Image } from "astro:assets";
 
 <Section className={Astro.props.className} title="Projects">
   <div class="grid grid-cols-1 gap-3 md:grid-cols-2 print:flex print:flex-col">
+
     {
       projects.map(
         ({ url, description, highlights, name, isActive, github, image }, index) => {
           const isBackgroundImage = image && image?.position === "background";
           const isContainerImage = image && image?.position === "container";
 
-          // Crear un grupo único para Fancybox
+          // Grupo único para Fancybox
           const fancyboxGroup = `project-${index}`;
 
           return (
@@ -118,13 +119,31 @@ import { Image } from "astro:assets";
         }
       )
     }
+
+    <!-- Proyecto extra: Galería de Flickr -->
+    <div
+      role="contentinfo"
+      class="project-container grid-span-1 group relative flex min-h-80 flex-col overflow-hidden rounded-md bg-skin-button-muted/50 p-5 shadow-sm ring-1 ring-skin-muted"
+    >
+      <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">
+        <Icon name="mdi:folder-outline" class="size-4" /> Galería Flickr
+      </h3>
+      <a data-flickr-embed="true" href="https://www.flickr.com/photos/203396881@N08/albums/72177720328304467" title="Proyecto1">
+        <img src="https://live.staticflickr.com/65535/54713758052_b1422ecea4_b.jpg" alt="Proyecto1" class="rounded-lg shadow" />
+      </a>
+    </div>
+
   </div>
 </Section>
 
+<!-- Script de Fancybox -->
 <script>
   import { Fancybox } from "@fancyapps/ui";
   Fancybox.bind("[data-fancybox]", { hideScrollbar: false });
 </script>
+
+<!-- Script de Flickr -->
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 <style>
   ul {
