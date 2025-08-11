@@ -4,27 +4,46 @@ import { Icon } from "astro-icon/components";
 import { projects } from "@cv";
 import fs from "fs";
 import path from "path";
+
+type ProjectImage = {
+  url?: string;
+  folder?: string;
+  position?: string;
+  dark?: string;
+};
+
 ---
 
 <Section className={Astro.props.className} title="Projects">
   <div class="grid grid-cols-1 gap-3 md:grid-cols-2 print:flex print:flex-col">
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github, image }, index) => {
-          const isBackgroundImage = image && image?.position === "background";
+        ({ url, description, highlights, name, isActive, github, image }: { 
+          url?: string;
+          description: string;
+          highlights: string[];
+          name: string;
+          isActive: boolean;
+          github?: string;
+          image?: ProjectImage;
+        }, index: number) => {
+
           const isContainerImage = image && image?.position === "container";
 
           // Grupo Fancybox único por proyecto
           const fancyboxGroup = `project-${index}`;
 
           // Lista de imágenes del folder si existe
-          let imageList = [];
+          let imageList: string[] = [];
           if (image?.folder) {
-            const folderPath = path.join(Astro.srcDir, "assets", image.folder);
+            const folderPath = path.join(
+              new URL("../assets", import.meta.url).pathname,
+              image.folder
+            );
             try {
               imageList = fs.readdirSync(folderPath)
                 .filter(file => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
-                .map(file => path.join(image.folder, file));
+                .map(file => path.join(image.folder!, file));
             } catch (err) {
               console.error(`Error leyendo carpeta de imágenes: ${folderPath}`, err);
             }
@@ -84,7 +103,7 @@ import path from "path";
               {/* Reel de imágenes */}
               {isContainerImage && imageList.length > 0 && (
                 <div class="mt-3 flex gap-2 overflow-x-auto">
-                  {imageList.map((imgSrc) => (
+                  {imageList.map((imgSrc: string) => (
                     <a data-src={imgSrc} data-fancybox={fancyboxGroup}>
                       <img
                         src={imgSrc}
