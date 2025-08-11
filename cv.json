@@ -224,16 +224,6 @@
       ]
     },
     {
-      "name": "Azure",
-      "icon": "simple-icons:microsoftazure",
-      "level": "Basic",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage"
-      ]
-    },
-    {
       "name": "Git",
       "icon": "mdi:git",
       "level": "Intermediate",
@@ -304,9 +294,30 @@
   "projects": [
     {
       "name": "Fire Protection Dashboards",
-      "imageFolder": "public",
-      "isActive": false,
+      "image": {
+        "url": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/RESUMEN-EXT.png?updatedAt=1754938235724",
+        "position": "container",
+        "dark": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/RESUMEN-EXT.png?updatedAt=1754938235724"
+      },
+      "isActive": true,
       "description": "Visualization of the progress of the area's goals and equipment.",
+      "highlights": [
+        "📊 Visualization of area progress",
+        "🔎 Quick search for equipment by location",
+        "📈 Performance trends and historical comparisons",
+        "🎯 Goal tracking"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Fire Protection KPI Dashboards",
+      "image": {
+        "url": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/KPIS.png?updatedAt=1754938235738",
+        "position": "container",
+        "dark": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/KPIS.png?updatedAt=1754938235738"
+      },
+      "isActive": true,
+      "description": "Visualization of the progress of the area.",
       "highlights": [
         "📊 Visualization of area progress",
         "🔎 Quick search for equipment by location",
@@ -335,9 +346,9 @@
     {
       "name": "Panel SDACI",
       "image": {
-        "url": "https://i0.hdslb.com/bfs/article/985e2caa8266dee4b9861ee6a341886d480025691.png@1e_1c.webp",
+        "url": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/browser.png?updatedAt=1754956189238",
         "position": "container",
-        "dark": "https://i0.hdslb.com/bfs/article/4d0bf8a784d22e54e3e61763c361c9ef480025691.png@100q_1e_1c.webp"
+        "dark": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/browser.png?updatedAt=1754956189238"
       },
       "isActive": true,
       "description": "A desktop app for maintaining Simplex fire alarm systems, enabling device searches by address.",
@@ -346,10 +357,10 @@
         "🕒 View maintenance history with detailed information",
         "➕ Add new maintenance records",
         "❌ Delete history entries",
-        "💾 Data stored in an Azure SQL database"
+        "💾 Store all data in a SQL Server database"
       ],
-      "url": "https://what-the-fuck.sbs",
-      "github": "https://github.com/MiraHikari/cloudflare-vmail"
+      "url": "",
+      "github": "https://github.com/Bescarso/Panel_SDACI"
     },
     {
       "name": "Aqui va el proyecto ANPR",
