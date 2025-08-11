@@ -1,7 +1,6 @@
 ---
 import Section from "../Section.astro";
 import { Icon } from "astro-icon/components";
-
 import { projects } from "@cv";
 import { Image } from "astro:assets";
 ---
@@ -10,9 +9,13 @@ import { Image } from "astro:assets";
   <div class="grid grid-cols-1 gap-3 md:grid-cols-2 print:flex print:flex-col">
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github, image }) => {
+        ({ url, description, highlights, name, isActive, github, image }, index) => {
           const isBackgroundImage = image && image?.position === "background";
           const isContainerImage = image && image?.position === "container";
+
+          // Crear un grupo único para Fancybox
+          const fancyboxGroup = `project-${index}`;
+
           return (
             <div
               role="contentinfo"
@@ -21,7 +24,7 @@ import { Image } from "astro:assets";
               ]}
             >
               {isBackgroundImage && (
-                <a data-src={image.url} data-fancybox="projects">
+                <a data-src={image.url} data-fancybox={fancyboxGroup}>
                   <div
                     class:list={[
                       "absolute inset-0 transform bg-cover bg-center bg-no-repeat opacity-30 blur-sm grayscale transition-all duration-300",
@@ -37,9 +40,7 @@ import { Image } from "astro:assets";
                   )}
                 </a>
               )}
-              <div
-                class={`relative z-10 flex items-center justify-between space-x-[10px]`}
-              >
+              <div class={`relative z-10 flex items-center justify-between space-x-[10px]`}>
                 <div class="flex items-center gap-2">
                   <Icon name="mdi:folder-outline" class="size-4" />
                   <div class="flex items-center gap-[6px]">
@@ -82,8 +83,9 @@ import { Image } from "astro:assets";
                   return <li>{highlight}</li>;
                 })}
               </ul>
+
               {isContainerImage && (
-                <a data-src={image.url} data-fancybox="projects">
+                <a data-src={image.url} data-fancybox={fancyboxGroup}>
                   <Image
                     src={image.url}
                     alt=""
@@ -105,6 +107,7 @@ import { Image } from "astro:assets";
                   )}
                 </a>
               )}
+
               {isBackgroundImage && (
                 <p class="absolute bottom-2 right-2 font-mono text-sm text-skin-muted">
                   Click blank to enlarge
@@ -112,14 +115,15 @@ import { Image } from "astro:assets";
               )}
             </div>
           );
-        },
+        }
       )
     }
   </div>
 </Section>
+
 <script>
   import { Fancybox } from "@fancyapps/ui";
-  Fancybox.bind('[data-fancybox="projects"]', { hideScrollbar: false });
+  Fancybox.bind("[data-fancybox]", { hideScrollbar: false });
 </script>
 
 <style>
