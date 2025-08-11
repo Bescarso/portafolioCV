@@ -305,7 +305,7 @@
     {
       "name": "Fire Protection Dashboards",
       "image": {
-        "folder": "public",
+        "folder": "bescarso/portafolioCV/public",
         "position": "container"
       },
       "isActive": false,
@@ -316,7 +316,7 @@
         "📈 Performance trends and historical comparisons",
         "🎯 Goal tracking"
       ],
-      "url": "https://rth2.gcxstudio.cn/"
+      "url": ""
     },
     {
       "name": "Browser-Inventory App",
