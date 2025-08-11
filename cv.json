@@ -306,7 +306,7 @@
       "name": "Fire Protection Dashboards",
       "image": {
         "url": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/RESUMEN-SDACI.png?updatedAt=1754938235779",
-        "position": "background"
+        "position": "container"
       },
       "isActive": false,
       "description": "Visualization of the progress of the area's goals and equipment.",
