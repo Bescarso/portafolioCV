@@ -303,30 +303,16 @@
   ],
   "projects": [
     {
-      "name": "Fire Protection Equipment Dashboard",
+      "name": "Fire Protection Dashboards",
       "image": {
-        "url": "https://rth2-webstatic.gbclstudio.cn/wp-content/uploads/2024/02/1707656250-76b2b0d2c94824e89a2b8b2c7d1c6afe.png",
+        "url": "https://drive.google.com/file/d/1Clq4lXo8qyrPgsH5Kb9o9u7SYiJrJrjb/view",
         "position": "background"
       },
-      "isActive": true,
-      "description": "Public decryption activity in the form of Puzzle Hunt.",
-      "highlights": [
-        "🔎 Quick search for equipment by location",
-        "🧰 Visualization of area equipment",
-        "📝 Maintenance history"
-      ],
-      "url": "https://rth2.gcxstudio.cn/"
-    },
-    {
-      "name": "KPI Dashboard",
-      "image": {
-        "url": "https://rth2-webstatic.gbclstudio.cn/wp-content/uploads/2024/02/1707656250-76b2b0d2c94824e89a2b8b2c7d1c6afe.png",
-        "position": "background"
-      },
-      "isActive": true,
-      "description": "Public decryption activity in the form of Puzzle Hunt.",
+      "isActive": false,
+      "description": "Visualization of the progress of the area's goals and equipment.",
       "highlights": [
         "📊 Visualization of area progress",
+        "🔎 Quick search for equipment by location",
         "📈 Performance trends and historical comparisons",
         "🎯 Goal tracking"
       ],
