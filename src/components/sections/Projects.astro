@@ -4,15 +4,17 @@ import { Icon } from "astro-icon/components";
 import { projects } from "@cv";
 
 // Función para cargar imágenes de una carpeta dada
-function getImagesFromFolder(folderPath) {
-  // Importa todos los archivos dentro de la carpeta
-  const images = import.meta.glob(`/src/assets/projects/${folderPath}/*.{png,jpg,jpeg,webp}`, {
-    eager: true,
-    import: "default"
-  });
+function getImagesFromFolder(folderPath: string): string[] {
+  const images = import.meta.glob<string>(
+    `/src/assets/projects/${folderPath}/*.{png,jpg,jpeg,webp}`,
+    {
+      eager: true,
+      import: "default"
+    }
+  );
 
-  // Devuelve la lista ordenada por nombre de archivo
-  return Object.values(images).sort();
+  // Convierte a string[] y ordena
+  return Object.values(images).map(img => img as string).sort();
 }
 ---
 
@@ -21,7 +23,7 @@ function getImagesFromFolder(folderPath) {
     {
       projects.map((project) => {
         const { url, description, highlights, name, isActive, github, imageFolder } = project;
-        const images = imageFolder ? getImagesFromFolder(imageFolder) : [];
+        const images: string[] = imageFolder ? getImagesFromFolder(imageFolder) : [];
 
         return (
           <div
@@ -75,7 +77,7 @@ function getImagesFromFolder(folderPath) {
             {/* Reel de imágenes */}
             {images.length > 0 && (
               <div class="relative z-10 mt-4 flex overflow-x-auto gap-3 pb-2 scrollbar-hide">
-                {images.map((img) => (
+                {images.map((img: string) => (
                   <a data-fancybox={`project-${name}`} href={img}>
                     <img
                       src={img}
