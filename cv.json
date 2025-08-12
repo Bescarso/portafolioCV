@@ -325,11 +325,11 @@
       "url": "https://app.powerbi.com/view?r=eyJrIjoiYTNkNmY0ZWYtNjRhMy00ZTExLWEzNTQtM2VjZDM5MWFlZjBkIiwidCI6IjQ2NjA1NDIyLWQyOWQtNDg5Yi04ZGZiLTE2MzAyYWYxZmUzNyIsImMiOjR9"
     },
     {
-      "name": "Browser-Inventory App",
+      "name": "Panel SDACI V2.0",
       "image": {
-        "url": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/RESUMEN-SDACI.png?updatedAt=1754938235779",
+        "url": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/sdaci3.png?updatedAt=1755026458775",
         "position": "container",
-        "dark": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/RESUMEN-SDACI.png?updatedAt=1754938235779"
+        "dark": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/sdaci3.png?updatedAt=1755026458775"
       },
       "isActive": true,
       "description": "An update of the Panel_SDACI application with new features.",
@@ -342,7 +342,7 @@
       "github": "https://github.com/MiraHikari/cloudflare-vmail"
     },
     {
-      "name": "Panel SDACI",
+      "name": "Panel SDACI ",
       "image": {
         "url": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/browser.png?updatedAt=1754956189238",
         "position": "container",
