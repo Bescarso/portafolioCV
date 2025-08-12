@@ -293,34 +293,32 @@
   ],
   "projects": [
     {
-      "name": "Fire Protection Dashboards",
+      "name": "Fire Protection Dashboard",
       "image": {
         "url": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/RESUMEN-EXT.png?updatedAt=1754938235724",
         "position": "container",
         "dark": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/RESUMEN-EXT.png?updatedAt=1754938235724"
       },
       "isActive": true,
-      "description": "Visualization of the progress of the area's goals and equipment.",
+      "description": "Current status and maintenance of fire protection equipment in the area.",
       "highlights": [
-        "📊 Visualization of area progress",
+        "🎯 Monitoring and status of equipment",
         "🔎 Quick search for equipment by location",
-        "📈 Performance trends and historical comparisons",
-        "🎯 Goal tracking"
+        "📋 Technical details and specifications of each equipment"
       ],
-      "url": ""
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiZGM2NDNjYWQtYjQxYy00NTc5LThmZDAtNTM2OGJhYzdkZjQxIiwidCI6IjQ2NjA1NDIyLWQyOWQtNDg5Yi04ZGZiLTE2MzAyYWYxZmUzNyIsImMiOjR9"
     },
     {
-      "name": "Fire Protection KPI Dashboards",
+      "name": "KPI Dashboard",
       "image": {
         "url": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/KPIS.png?updatedAt=1754938235738",
         "position": "container",
         "dark": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/KPIS.png?updatedAt=1754938235738"
       },
       "isActive": true,
-      "description": "Visualization of the progress of the area.",
+      "description": "Monitoring goals and progress of the fire protection area",
       "highlights": [
         "📊 Visualization of area progress",
-        "🔎 Quick search for equipment by location",
         "📈 Performance trends and historical comparisons",
         "🎯 Goal tracking"
       ],
