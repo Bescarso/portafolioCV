@@ -361,22 +361,22 @@
       "github": "https://github.com/Bescarso/Panel_SDACI"
     },
     {
-      "name": "Aqui va el proyecto ANPR",
+      "name": "Automatic Number Plate Recognition (ANPR)",
       "image": {
-        "url": "https://i0.hdslb.com/bfs/article/985e2caa8266dee4b9861ee6a341886d480025691.png@1e_1c.webp",
+        "url": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/anpr.png?updatedAt=1755028218201",
         "position": "container",
-        "dark": "https://i0.hdslb.com/bfs/article/4d0bf8a784d22e54e3e61763c361c9ef480025691.png@100q_1e_1c.webp"
+        "dark": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/anpr.png?updatedAt=1755028218201"
       },
       "isActive": true,
-      "description": "A desktop app for maintaining Simplex fire alarm systems, enabling device searches by address.",
+      "description": "A graduation project developed at university.",
       "highlights": [
-        "🔍 Search devices by address device",
-        "🕒 View maintenance history with detailed information",
-        "➕ Add new maintenance records",
-        "❌ Delete history entries",
-        "💾 Data stored in an Azure SQL database"
+        "🧠 Model trained using YOLOv8",
+        "📸 Dataset of 1,000 images",
+        "⚙️ Utilized Roboflow platform for data annotation and augmentation",
+        "🎯 License plate detection: 99% accuracy ",
+        "🔤 Character recognition: 69% accuracy"
       ],
-      "url": "https://what-the-fuck.sbs",
+      "url": "https://www.youtube.com/watch?v=PBC69w1k-9I",
       "github": "https://github.com/MiraHikari/cloudflare-vmail"
     }
   ]
