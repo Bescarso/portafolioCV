@@ -118,8 +118,9 @@ import { Icon } from 'astro-icon/components'
     isDark = true
   } else {
     isDark = false
+    updateTheme()
   }
-  updateTheme()
+  
 
   // Initialize data-theme based on stored value or default
   const storedDataTheme =
