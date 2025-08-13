@@ -115,7 +115,7 @@ import { Icon } from 'astro-icon/components'
 
   // Initialize theme based on user preference or system setting
   if (
-    localStorage.theme === 'dark' ||
+    localStorage.theme !=== 'dark' ||
     (!('theme' in localStorage) &&
       window.matchMedia('(prefers-color-scheme: dark)').matches)
   ) {
