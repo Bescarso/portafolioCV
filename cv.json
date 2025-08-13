@@ -331,7 +331,7 @@
         "position": "container",
         "dark": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/sdaci3.png?updatedAt=1755026458775"
       },
-      "isActive": true,
+      "isActive": false,
       "description": "An update of the Panel_SDACI application with new features.",
       "highlights": [
         "🎯 Inventory feature added",
@@ -348,7 +348,7 @@
         "position": "container",
         "dark": "https://ik.imagekit.io/o3ajpklh4/Imagenes%20portafolio/browser.png?updatedAt=1754956189238"
       },
-      "isActive": true,
+      "isActive": false,
       "description": "A desktop app for maintaining Simplex fire alarm systems, enabling device searches by address.",
       "highlights": [
         "🔍 Search devices by address device",
