@@ -39,7 +39,6 @@ import { Icon } from 'astro-icon/components'
     color-scheme: dark;
   }
 </style>
-
 <script>
   let isDark = document.documentElement.classList.contains('dark')
 
@@ -113,17 +112,18 @@ import { Icon } from 'astro-icon/components'
     })
   }
 
-  // Initialize theme based on user preference or system setting
-  if (
-    localStorage.theme === 'dark' ||
-    (!('theme' in localStorage) &&
-      window.matchMedia('(prefers-color-scheme: dark)').matches)
-  ) {
-    isDark = true
-    updateTheme()
+  // 🚀 Forzar tema oscuro por defecto si no existe configuración previa
+  if (!('theme' in localStorage)) {
+    localStorage.setItem('theme', 'dark');
   }
 
-  // Initialize data-theme based on stored value or default
+  // Inicializar tema según lo guardado
+  if (localStorage.theme === 'dark') {
+    isDark = true;
+    updateTheme();
+  }
+
+  // Inicializar data-theme
   const storedDataTheme =
     localStorage.getItem('data-theme') ||
     document.body.getAttribute('data-theme')!
@@ -134,7 +134,7 @@ import { Icon } from 'astro-icon/components'
     themeSelect.value = storedDataTheme
   }
 
-  // Listen for changes in system color scheme
+  // Escuchar cambios del sistema SOLO si el usuario no cambió el tema manualmente
   window
     .matchMedia('(prefers-color-scheme: dark)')
     .addEventListener('change', e => {
@@ -144,23 +144,3 @@ import { Icon } from 'astro-icon/components'
       }
     })
 </script>
-
-<style is:global>
-  ::view-transition-old(root),
-  ::view-transition-new(root) {
-    animation: none;
-    mix-blend-mode: normal;
-  }
-  ::view-transition-old(root) {
-    z-index: 1;
-  }
-  ::view-transition-new(root) {
-    z-index: 9999;
-  }
-  .dark::view-transition-old(root) {
-    z-index: 9999;
-  }
-  .dark::view-transition-new(root) {
-    z-index: 1;
-  }
-</style>
