@@ -114,14 +114,12 @@ import { Icon } from 'astro-icon/components'
   }
 
   // Initialize theme based on user preference or system setting
-  if (
-    localStorage.theme !=== 'dark' ||
-    (!('theme' in localStorage) &&
-      window.matchMedia('(prefers-color-scheme: dark)').matches)
-  ) {
+  if (!('theme' in localStorage) || localStorage.theme === 'dark') {
     isDark = true
-    updateTheme()
+  } else {
+    isDark = false
   }
+  updateTheme()
 
   // Initialize data-theme based on stored value or default
   const storedDataTheme =
